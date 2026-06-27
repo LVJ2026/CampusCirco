@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fb;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+}
+
+h1 {
+    color: #1846a3;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #555555;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 120px;
+}
+#application {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    width: 450px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1846A3;
+    margin-bottom: 15px;
+}
+
+.card select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    background: #1846A3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #2D5CC3;
+}
