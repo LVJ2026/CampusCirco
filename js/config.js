@@ -2,6 +2,6 @@ const CONFIG = {
 
     DOCUMENT_ID: "81zf7baTvQ9XeFcWBLpFzf",
 
-    API_KEY: "78848a57bce32f5b6b69c374b7af01654a439979"
+    API_KEY: " "
 
 };
