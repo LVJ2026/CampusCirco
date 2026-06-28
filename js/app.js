@@ -26,6 +26,7 @@ async function afficherListeEcoles() {
         }
 
         const donnees = await reponse.json();
+        console.log(donnees);
 
         liste.innerHTML = '<option value="">-- Sélectionnez votre école --</option>';
 
