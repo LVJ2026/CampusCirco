@@ -1,4 +1,4 @@
-name: Test
+name: Synchroniser Grist
 
 on:
   workflow_dispatch:
@@ -8,5 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Bonjour
-        run: echo "Campus Circo fonctionne !"
+      - name: Vérification du secret
+        run: |
+          if [ -z "${{ secrets.GRIST_API_KEY }}" ]; then
+            echo "Secret introuvable"
+            exit 1
+          else
+            echo "Secret trouvé"
+          fi
