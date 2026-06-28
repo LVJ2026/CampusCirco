@@ -1,5 +1,6 @@
 exports.handler = async function () {
-  const url = "https://grist.numerique.gouv.fr/api/docs/81zf7baTvQ9XeFcWBLpFzf/tables";
+
+  const url = "https://grist.numerique.gouv.fr/api/docs/81zf7baTvQ9XeFcWBLpFzf/tables/ECOLES/records";
 
   const response = await fetch(url, {
     headers: {
@@ -17,4 +18,5 @@ exports.handler = async function () {
     },
     body: JSON.stringify(data)
   };
+
 };
